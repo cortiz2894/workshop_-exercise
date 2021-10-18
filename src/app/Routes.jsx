@@ -17,9 +17,15 @@ const AplicationRoutes = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/items/:id" component={ProductDetails} />
-        <Route exact path="/items" component={ProductListView} />
+        <Route exact path="/">
+          <Home></Home>
+        </Route> 
+        <Route exact path="/items/:id" >
+          <ProductDetails ></ProductDetails>
+        </Route>
+        <Route exact path="/items" >
+          <ProductListView></ProductListView>
+        </Route>
       </Switch>
     </Router>
   );
