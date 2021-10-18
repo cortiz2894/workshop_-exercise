@@ -1,0 +1,52 @@
+.header {
+  background-color: #FFE600;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.header--gridContainer{
+  padding: 10px 0;
+}
+.toolbarTitle {
+  flex: 1
+}
+.toolbarSecondary {
+  justify-content: space-between;
+  overflow-x: auto;
+}
+.toolbarLink {
+  padding: 10px;
+  flex-shrink: 0;
+}
+.headerLogo {
+  height: 34px;
+}
+.headerLogoContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+}
+.searchListForm {
+  width: 100%;
+  position: relative;
+
+  & .searchListForm--button {
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    background: #EEEEEE;
+    border-radius: 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+}
+
+
+.searchListForm--input {
+  width: 100%;
+  background-color: white;
+  border: none;
+  outline: none;
+  padding: 10px 7px;
+}

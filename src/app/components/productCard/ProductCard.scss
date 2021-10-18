@@ -1,0 +1,56 @@
+.containerBody {
+  & .card-product {
+    width: 100%;
+    padding: 16px;
+    padding-bottom: 0px;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+.img-product {
+  width: 180px;
+  height: 180px;
+  border-radius: 4px;
+}
+
+.container-price {
+  margin-bottom: 32px;
+  float: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.icon-envio {
+  margin-left: 16px;
+}
+
+.container-info-product {
+  & p.price-text {
+    font-size: 24px;
+    margin-top: 0px;
+    float: left;
+  }
+  & p {
+    font-size: 18px;
+    margin: 0px;
+  }
+  float: left;
+  width: 80%;
+  text-align: left;
+}
+
+.container-card {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.lugar-product {
+    float: left;
+    width: 20%;
+    & p {
+      font-size: 12px;
+      color: #999999;
+    }
+}
