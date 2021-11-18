@@ -63,6 +63,7 @@ export const Header = props => {
             </Grid>
           </Grid>
       </Toolbar>
+      <h1>Changes Header</h1>
     </React.Fragment>
   )
 }
