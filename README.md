@@ -1,4 +1,4 @@
-# workshop_-exercise
+# Workshop Exercise
 Ejercicio de Optimizacion de codigo - CoderHouse
 
 **1.  Workshop Exercise**
